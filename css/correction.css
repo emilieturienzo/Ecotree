@@ -1,0 +1,28 @@
+/* Body document parameters */
+/*  */
+/*  */
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* text font and color */
+/*  */
+/*  */
+.ux-display-1{
+    color:#474747
+}
+
+.ux-display-2{
+    text-shadow:0 0 black;
+    color:#474747;
+}
+
+/* image width and heigh */
+/*  */
+/*  */
+svg{
+    width:0;
+    height: 0;
+}

@@ -1,0 +1,306 @@
+/* Body and html file details */
+/*  */
+/*  */
+body{
+    width:100%;
+    margin: 0;
+    padding: 0 ;
+}
+.backgroundGreen{
+    background: #F2F9F2 0% 0% no-repeat padding-box;
+    opacity: 1;
+    top: 0px;
+    left: 0px;
+    width: 1925px;
+    height: 742px;
+}
+
+
+/* type on the page*/
+/*  */
+/*  */
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../Montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: MontserratRegular;
+    src: url(../Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(../Montserrat/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../Montserrat/Montserrat-Light.ttf);
+}
+
+/* two first div right and left*/
+/*  */
+/*  */
+.divContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerRight{
+    width: 50.5%;
+    height: auto;
+    /* background-color: rgb(174, 174, 255); */
+}
+
+.containerLeft{
+    width: 45%;
+    height: auto;
+    /* background-color: rgb(220, 169, 216); */
+}
+
+.textContainer{
+    margin-left: 253px;
+    margin-top: 147px;
+}
+
+.textContainer2{
+    margin-left: 253px;
+    margin-top: 147px;
+}
+
+p{
+    text-align: left;
+    font-family: 'Montserra', sans-serif;
+    font: normal normal medium 17px/47px Montserrat-Medium;
+    letter-spacing: 0.15px;
+    color: #CDCDCD;
+    opacity: 1;
+    
+}
+
+.testimonial{
+    top: px;
+    left: 253px;
+    width: 123px;
+    height: 18px;
+    text-align: left;
+    font-family: 'MontserraBold', sans-serif;
+    font-size: 17px;
+    letter-spacing: 0.15px;
+    color: #CDCDCD;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.textDescription{
+    text-align: left;
+    font: normal normal normal 19px/33px Montserrat;
+    letter-spacing: 0px;
+    color: #434343B5;
+    opacity: 1;
+
+}
+
+.containerImgText{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+h2{
+    text-align: left;
+    font-family: Montserrat-Bold, sans-serif;
+    font-size: 36px;
+    letter-spacing: 0.72px;
+    color: #474747;
+    margin: 0;
+    
+}
+
+button{
+    background: #429A2F 0% 0% no-repeat padding-box;
+    border-radius: 9px;
+    opacity: 1;
+    border: none;
+    width: 277px;
+    height: 83px;
+    text-align: center;
+    font: normal normal 600 20px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 40px;
+}
+
+button:hover{
+    background: #005500 0% 0% no-repeat padding-box;
+    border-radius: 9px;
+    opacity: 1;
+    border: none;
+    width: 277px;
+    height: 83px;
+    text-align: center;
+    font: normal normal 600 20px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    margin-top: 40px;
+}
+
+/* second block : three div */
+/*  */
+/*  */
+.threeDivContainer{
+    margin-top: 79px;
+    width: 605px;
+    height: 219px;
+    margin-left: 45px;
+}
+
+.box1{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 76px #173E111F;
+    border-radius: 6px;
+    opacity: 1;
+    width: 605px;
+    height: 219px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.box2{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 76px #173E111F;
+    border-radius: 6px;
+    opacity: 1;
+    width: 605px;
+    height: 219px;
+    margin-top: 55px;
+}
+
+.box3{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 76px #173E111F;
+    border-radius: 6px;
+    opacity: 1;
+    width: 605px;
+    height: 219px;
+    margin-top: 55px;
+}
+
+.textBox{
+    font-family: Montserra-Medium, sans-serif;
+    font-size: 17px/25px;
+    color: #434343B5;
+    opacity: 1;
+    margin-top: 70px;
+    
+}
+
+.imgBox1{
+    background: url(../img/adult-african-american-afro-black-female-1181519.png);
+    background-repeat: no-repeat;
+    background-size: 190%;
+    background-position: right;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    color: #ffffff;
+}
+
+.imgBox2{
+    background: url(../img/jack-finnigan-rriAI0nhcbc-unsplash.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    color: #ffffff;
+}
+
+.imgBox3{
+    background: url(../img/portrait-photo-of-man-in-white-crew-neck-t-shirt-with-1139743.png);
+    background-repeat: no-repeat;
+    background-size: 160%;
+    background-position: center;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    color: #ffffff;
+}
+
+/* second block and and design */
+/*  */
+/*  */
+hr{
+    margin:0;
+    background-color: #429A2F;
+    border: none;
+    height: 5px;
+    width:54px;
+    border-radius: 3px;
+    
+}
+
+.lineGreen{
+    width: 100%;
+    height: 1000px;
+}
+
+.lineDecoration{
+    position: absolute;
+    margin-top: 60px;
+    z-index: -10;
+}
+.box4{
+    background-image: url(../img/Tracé\ 370.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-left: 1345px;
+    width: 400px;
+}
+
+.txtGain{
+    margin-left: 60px;
+    text-align: left;
+    font-family:MontserratMedium, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #434343B5;
+    opacity: 1;
+}
+
+.gain{
+    font-family: Montserra-Bold, sans-serif;
+    font-weight: bolder;
+    margin-left: 60px;
+    text-align: left;
+    font-size: 19px;
+    letter-spacing: 0px;
+    color: #434343B5;
+    opacity: 1;
+    margin-top: 0;
+}
+
+.box5{
+    position: absolute;
+    top:1233px;
+    background-image: url(../img/Tracé\ 371.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-left: 740px;
+    width: 400px;
+}
+.box6{
+    background-image: url(../img/Tracé\ 372.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-left: 150px;
+    width: 400px;
+    position: absolute;
+    top: 1447px
+}

@@ -1,0 +1,268 @@
+/* Body and html file details */
+/*  */
+/*  */
+body{
+    width:100%;
+    margin: 0;
+    padding: 0 ;
+}
+.backgroundGreen{
+    background: #F2F9F2 0% 0% no-repeat padding-box;
+    left: 0.00048828125px;
+    width: 400px;
+    height: 908px;
+    
+}
+
+
+/* type on the page*/
+/*  */
+/*  */
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../Montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: MontserratRegular;
+    src: url(../Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(../Montserrat/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../Montserrat/Montserrat-Light.ttf);
+}
+
+.divContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.containerRight{
+    width: 50.5%;
+    height: auto;
+    /* background-color: rgb(174, 174, 255); */
+}
+
+.containerLeft{
+    width: 45%;
+    height: auto;
+    /* background-color: rgb(220, 169, 216); */
+}
+
+.textContainer{
+    margin-left: 28px;
+    margin-top: 54px;
+    width: 395px;
+}
+
+.textContainer2{
+    margin-left: 253px;
+    margin-top: 147px;
+}
+
+p{
+    text-align: left;
+    font-family: 'Montserra', sans-serif;
+    font: normal normal medium 17px/47px Montserrat-Medium;
+    letter-spacing: 0.15px;
+    color: #CDCDCD;
+    opacity: 1;
+    
+}
+
+.hrTop{
+    margin-left: 150px;
+    width: 54px;
+    height: 5px;
+    background-color: #429A2F;
+    border: none;
+    border-radius: 50px;
+}
+
+.testimonial{
+    top: px;
+    margin-left:120px;
+    width: 123px;
+    height: 18px;
+    font-family: 'MontserraBold', sans-serif;
+    font-size: 17px;
+    letter-spacing: 0.15px;
+    color: #CDCDCD;
+    text-transform: uppercase;
+    opacity: 1;
+    
+}
+
+.textDescription{
+    text-align: left;
+    font: normal normal normal 19px/33px Montserrat;
+    letter-spacing: 0px;
+    color: #434343B5;
+    opacity: 1;
+
+
+}
+
+.containerImgText{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+h2{
+    text-align: left;
+    font-family: Montserrat-Bold, sans-serif;
+    font-size: 34px;
+    letter-spacing: 0.72px;
+    color: #474747;
+    margin: 0;
+}
+
+button{
+    background: #429A2F 0% 0% no-repeat padding-box;
+    border-radius: 9px;
+    opacity: 1;
+    border: none;
+    width: 202px;
+    height: 45px;
+    text-align: center;
+    font: normal normal 600 20px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 20px;
+}
+
+button:hover{
+    background: #005500 0% 0% no-repeat padding-box;
+    border-radius: 9px;
+    opacity: 1;
+    border: none;
+    width: 202px;
+    height: 45px;
+    text-align: center;
+    font: normal normal 600 20px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    margin-top: 20px;
+}
+
+/* * second block : three div */ 
+/*  */
+/*  */
+.threeDivContainer{
+    width: 605px;
+    height: 219px;
+    margin-left: 19px;
+}
+
+.box1{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 76px #173E111F;
+    border-radius: 6px;
+    opacity: 1;
+    width: 362px;
+    height: 276px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.name{
+    text-align: center;
+    text-align: center;
+    font: normal normal bold 20px/28px Montserrat-Bold;
+    letter-spacing: 0px;
+    color: #434343B5;
+    opacity: 1;
+}
+
+.pictureName{
+    text-align: center;
+}
+
+.textBox{
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 35px;
+    font: normal normal normal 17px/25px Montserrat;
+    letter-spacing: 0px;
+    color: #434343B5;
+    opacity: 1;
+    
+}
+
+.imgBox1{
+    background: url(../img/adult-african-american-afro-black-female-1181519.png);
+    background-repeat: no-repeat;
+    background-size: 190%;
+    background-position: right;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    color: #ffffff;
+    margin-left: 135px;
+}
+
+.container2{
+    margin-top: 600px;
+    width: 400px;
+}
+
+.tree{
+    text-align: center;
+}
+
+.works{
+    text-align: center;
+}
+
+.hrTop2{
+    margin-left: 175px;
+    width: 54px;
+    height: 5px;
+    background-color: #429A2F;
+    border: none;
+    border-radius: 50px;
+}
+
+.imgLine{
+    margin-top: 50px;
+}
+
+.greenLineDesign{
+    width: 450px;
+    z-index: -10;
+    position: absolute;    
+}
+
+.firstImg{
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+.secondtImg{
+    display: block;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.thirdtImg{
+    display: block;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+.txt1{
+    width: 400px;
+    position: absolute;
+    margin-left: 300px;
+}
